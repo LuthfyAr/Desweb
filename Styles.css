@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    background: #F38181;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    text-align: center;
+    font: 1em sans-serif;
+
+}
+
+.card-01 {
+    background: #FCE38A;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-02 {
+    background: #EAFFD0;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background: #95E1D3;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:800px) {
+
+    .header {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-01 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-02 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .footer {
+        flex: 100%;
+        max-width: 600px;
+    }
+}
